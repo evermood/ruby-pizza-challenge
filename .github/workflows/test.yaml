@@ -1,0 +1,15 @@
+name: test
+on: push
+
+jobs:
+  rspec:
+    name: rspec
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - run: gem install bundler --no-document
+    - run: bundle install --jobs=3 --retry=3
+    - run: bundle exec rspec spec

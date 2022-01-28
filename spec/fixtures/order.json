@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "name": "Salami",
+      "size": "Medium",
+      "add": ["Onion"],
+      "remove": ["Cheese"]
+    },
+    {
+      "name": "Salami",
+      "size": "Small",
+      "add": [],
+      "remove": []
+    },
+    {
+      "name": "Salami",
+      "size": "Small",
+      "add": [],
+      "remove": []
+    },
+    {
+      "name": "Salami",
+      "size": "Small",
+      "add": [],
+      "remove": []
+    },
+    {
+      "name": "Salami",
+      "size": "Small",
+      "add": ["Olives"],
+      "remove": []
+    }
+  ],
+  "promotion_codes": ["2FOR1"],
+  "discount_code": "SAVE5"
+}
